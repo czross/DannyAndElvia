@@ -114,25 +114,73 @@
     src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
 div {
-    font-family: "Josefin Sans";
+    font-family: "Lust Script";
     font-style: italic;
+    text-align: center;
 }
 
-#first-div {
-    background-image: url("../img/dock.jpg");
+.div-pic {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
-    height: 1200px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
 }
+
 
 #mini-title {
     padding-top: 50px;
+}
+
+#main-title {
+    padding-top: 300px;
+    position: relative;
+    z-index: 2;
 }
 
 h1 {
     padding-top: 50px;
     text-align: center;
     font-size: 100px;
+    text-decoration: double;
+    color: #00bcff;
 }
+
+p {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+#speel {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+#third-div {
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+.div-pic img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+#third-div h1 {
+    color: #2573ff;
+    opacity: 1;
+
+}
+
+#third-div h3 {
+    padding-top: 250px;
+}
+
