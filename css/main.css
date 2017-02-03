@@ -130,13 +130,22 @@ div {
     overflow: hidden;
 }
 
-
 #mini-title {
-    padding-top: 50px;
+    color: #af0a1b;
+}
+
+h2 {
+    color: #af0a1b;
+    font-family: "Josefin Sans";
+    z-index: 3;
+}
+
+h3 {
+    font-family: "Josefin Sans";
 }
 
 #main-title {
-    padding-top: 300px;
+    padding-top: 200px;
     position: relative;
     z-index: 2;
 }
@@ -146,7 +155,8 @@ h1 {
     text-align: center;
     font-size: 100px;
     text-decoration: double;
-    color: #00bcff;
+    color: #05588e;
+    font-family: "Lust Script";
 }
 
 p {
@@ -172,6 +182,7 @@ p {
     width: 100%;
     height: auto;
     opacity: 0.3;
+    z-index: -2;
 }
 
 #third-div h1 {
@@ -182,5 +193,15 @@ p {
 
 #third-div h3 {
     padding-top: 250px;
+    color: #af0a1b;
 }
+
+button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding-top: 50px;
+}
+
+
 
