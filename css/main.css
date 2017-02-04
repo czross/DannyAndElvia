@@ -202,5 +202,9 @@ button {
     padding-top: 50px;
 }
 
+#photos {
+    float: left;
+}
+
 
 
