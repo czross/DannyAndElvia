@@ -137,7 +137,6 @@ div {
 h2 {
     color: #af0a1b;
     font-family: "Josefin Sans";
-    z-index: 3;
 }
 
 h3 {
@@ -155,8 +154,8 @@ h1 {
     text-align: center;
     font-size: 100px;
     text-decoration: double;
-    color: #05588e;
-    font-family: "Lust Script";
+    color: rgba(13,141,156,.8);
+    font-family: "lust-script";
 }
 
 p {
@@ -182,7 +181,7 @@ p {
     width: 100%;
     height: auto;
     opacity: 0.3;
-    z-index: -2;
+    z-index: -1;
 }
 
 #third-div h1 {
@@ -199,7 +198,7 @@ p {
 button {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 0%;
     padding-top: 50px;
 }
 
